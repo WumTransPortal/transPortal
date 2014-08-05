@@ -1,0 +1,147 @@
+@extends('layouts.master')
+
+
+@section('content')
+	
+	<div class="row">
+
+		<div class="span12">
+		
+			<div class="content">
+				<h1>Welcome to the<br />Digital Experience Laboratory</h1>
+				<p class="lead">The FabLab at University Bremen: A place to come for making, learning and sharing.</p>
+
+				<hr />
+				<h3 style="color: #d00;">Want to show what you have done?</h3>
+				<p>Simply <a href="/account/register">register</a> for an account and got to the <a href="/explore/publicprojects">projects</a> section.</p>
+
+				<h3 style="color: #d00;">Don't know how the machines work?</h3>
+				<p><img src="/img/qrcode.png" class="thumbnail pull-left" style="margin-right: 10px;"/>Download any QR-Scanner App and scan our QR codes located on top of each machine, gadget or tool.<p>
+				<p>For the iPhone and iPod Touch we recommend using the free app called <a href="https://itunes.apple.com/de/app/scan/id411206394?mt=8" target="_blank">Scan</a>.</p>
+				<div class="clearfix"></div>
+				<hr />
+				<?php
+				/*
+				
+
+				<br />The FabLab at University Bremen
+				<div class="alert alert-error"><strong><i class="icon-warning-sign"></i> This site is under construction!</strong></div>
+				
+				<div class="hero-unit">
+					<h1>Heading</h1>
+					<p>Tagline</p>
+					<p>
+					<a class="btn btn-primary btn-large">Learn more</a>
+					</p>
+				</div>
+				
+				<hr />
+				
+				
+				<div id="myCarousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+                  <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                  <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="item next left">
+                    <img src="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4><a>First Thumbnail label</a> by Sabine Schmidt</h4>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Second Thumbnail label</h4>
+                    </div>
+                  </div>
+                  <div class="item active left">
+                    <img src="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Third Thumbnail label</h4>
+                    </div>
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+              </div>
+				*/
+				?>
+				<h3><i class="icon-download"></i> Downloads</h3>
+
+				<p><strong><a href="/uploads/files/fablab Manual.pdf" target="_blank"><i class="icon-book"></i> The fablab Manual</a></strong></p>
+				
+				<p><strong><a href="/uploads/files/Studentische_Haftpflichtversicherung_Infoblatt.pdf" target="_blank">Liability insurance for students / Haftpflichtversicherung</a></strong></p>
+				
+				<p>&nbsp;</p>
+				
+				<p><strong>Laser Cutter</strong></p>
+				<ul>
+					<li><a href="/uploads/files/LaserDraw 9 - English (EngraveLab 9).pdf" target="_blank">LaserDraw 9 - English</a></li>
+					<li><a href="/uploads/files/Laserdraw 9 - German.pdf" target="_blank">LaserDraw 9 - German</a></li>
+					<li><a href="/uploads/files/Zing - English.pdf" target="_blank">Zing LaserCutter - English</a></li>
+					<li><a href="/uploads/files/Zing - German.pdf" target="_blank">Zing LaserCutter - German</a></li>
+				</ul>
+
+				<p><strong>LaserCutter settings</strong></p>
+				<ul>
+					<li><a href="/uploads/files/Laserwertetabelle.pdf" target="_blank">Laserwertetabelle</a></li>
+				</ul>
+
+				<p>&nbsp;</p>
+				
+				<p><strong>3D Printers</strong></p>
+				<ul>
+					<li><a href="/uploads/files/Ultimaker.pdf" target="_blank">3D Printer Ultimaker - English</a></li>
+					<li><a href="/uploads/files/Prusa.pdf" target="_blank">3D Printer Prusa - English</a></li>
+				</ul>
+				
+				<p>&nbsp;</p>
+
+				<p><strong>Vinyl Cutters</strong></p>
+				<ul>
+					<li><a href="http://www.youtube.com/watch?v=TRGZ3cuO3Nc" target="_blank">How to Cut Vinyl</a></li>
+					<li><a href="http://www.youtube.com/watch?v=UyQE8bY1-Mw" target="_blank">Cutting ThermoFlex Plus</a></li>
+
+					<li><a href="http://www.youtube.com/watch?v=gMcWKW8Ep70" target="_blank">How to Print and Cut</a></li>
+					<li><a href="http://www.youtube.com/watch?v=bA7jgv8BA-w" target="_blank">Printable Heat Transfer Material</a></li>
+					<li><a href="http://www.youtube.com/watch?v=Ipjvy_94Ke8" target="_blank">How to make a T-Shirt</a></li>
+					<li><a href="http://www.youtube.com/watch?v=IBAh_fF38Ik" target="_blank">Cutting Fabric</a></li>
+				</ul>
+
+			</div>
+		</div>
+	
+	</div>
+
+	<div class="row">
+			
+		<div class="span12">
+
+			<div class="content">
+				<hr/>
+				<p><a href="http://dimeb.de" target="_blank"><img src="/img/logo_dimeb.png"></a></p>
+
+				<p>Universität Bremen<br />
+				<strong>AG Digitale Medien in der Bildung</strong></p>
+				<p>Bibliothekstraße 1<br />
+				28359 Bremen
+				</p>
+				<p>
+				Dr.-Ing. Dennis Krannich<br />
+				krannich ( at ) tzi.de<br />
+				+49 (0) 421 - 218 - 64384
+				</p>
+			
+			</div>
+		
+		</div>
+	
+	</div>
+
+
+</div>
+
+@stop
